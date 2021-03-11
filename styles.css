@@ -1,0 +1,50 @@
+* {
+    background-color: black;
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/02/21/18/dandelion-5975473_960_720.jpg");
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: #ba8509;
+    background-color: black;
+}
+
+p {
+    color: wheat;
+}
+
+.subtitle {
+    color: #ba8509;
+}
+
+
+/* #google-link:link {color: blueviolet;} */
+
+
+/* #google-link:visited {color: chocolate;} */
+
+h2:hover {
+    color: green;
+}
+
+textarea~button {
+    color: purple;
+}
+
+ul>li:hover {
+    color: aqua;
+}
+
+img[src^="./img/"] {
+    border: 10px solid black;
+}
+
+h2[class~=article-subtitle] {
+    background: yellow;
+}
+
+.boxzasliku {
+    width: 300px;
+    height: 300px;
+    background: wheat;
+}
