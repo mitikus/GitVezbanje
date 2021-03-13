@@ -1,5 +1,8 @@
   * {
-      background: linear-gradient( to bottom, rgb(63, 177, 53), rgba(63, 177, 53, 0.4));
+      background: linear-gradient( to bottom, rgb(63, 177, 53), rgba(63, 177, 53, 0.5));
+      text-align: justify;
+      font-size: 1.15em;
+      font-family: sans-serif;
   }
   
   .title {
@@ -25,6 +28,10 @@
       color: purple;
   }
   
+  ul {
+      font-weight: 800;
+  }
+  
   ul>li:hover {
       color: aqua;
   }
@@ -39,6 +46,14 @@
   
   .boxzasliku {
       height: 400px;
-      width: 70%;
+      width: 70vw;
       background: radial-gradient( circle, red 20%, blue 40%, green 80%);
+  }
+  
+  .googlelinks {
+      text-decoration: none;
+  }
+  
+  .italic {
+      font-style: inherit;
   }
